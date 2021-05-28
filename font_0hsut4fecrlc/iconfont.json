@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8102700",
+      "name": "菜单",
+      "font_class": "icon-test",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "9559033",
+      "name": "菜单",
+      "font_class": "ziyuan",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "19681116",
+      "name": "星巴克",
+      "font_class": "xingbake",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

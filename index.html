@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS文件/index.css">
+    <link rel="stylesheet" href="font_0hsut4fecrlc/iconfont.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <!-- 左边 -->
+            <div class="col-lg-4 position-fixed border-right leftCon">
+                <header class="navbar d-sm-flex d-none px-0 px-lg-2 py-3 py-lg-4 d-sm-none">
+                    <a href="#" class="navbar-brand"><img src="" alt="" class="iconfont icon-xingbake "></a>
+                    <ul id="nav" class="nav">
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark font-weight-bold">门店</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark font-weight-bold">我的账户</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="menu.html" class="nav-link text-dark font-weight-bold">菜单</a>
+                        </li>
+                    </ul>
+                    <span class="iconfont icon-ziyuan " id="showBtn"></span>
+                </header>
+
+                <div id="left-container" class="d-flex align-items-center login " >
+                    <div class="px-0 px-lg-5 ">
+                        <h1 class="font-weight-bold mt-5 mb-5">心情惬意，来杯咖啡吧！☕</h1>
+                        <div class="d-none d-sm-block  d-sm-none " >
+                            <a href="#" class=" ">
+                                <span>
+                                    <svg width="20px" t="1616245510295" class="icon" viewBox="0 0 1024 1024"
+                                        version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3983" width="200"
+                                        height="200">
+                                        <path
+                                            d="M1005.078261 801.391304c0-133.565217-124.66087-242.643478-304.973913-289.391304 64.556522-53.426087 104.626087-133.565217 104.626087-222.608696 0-160.278261-129.113043-289.391304-289.391305-289.391304s-289.391304 129.113043-289.391304 289.391304c0 89.043478 40.069565 169.182609 104.626087 222.608696C161.391304 554.295652 41.182609 654.469565 25.6 776.904348c-4.452174 6.678261-6.678261 15.582609-6.678261 24.486956v146.921739C18.921739 981.704348 52.313043 1024 92.382609 1024h843.686956c35.617391 0 62.330435-31.165217 62.330435-75.686957V823.652174c4.452174-6.678261 6.678261-15.582609 6.678261-22.26087z m-690.086957-512c0-111.304348 89.043478-200.347826 200.347826-200.347826s200.347826 89.043478 200.347827 200.347826c0 109.078261-89.043478 198.121739-198.12174 200.347826h-2.226087-2.226087c-111.304348-2.226087-198.121739-91.269565-198.121739-200.347826zM909.356522 934.956522H107.965217v-113.530435c4.452174-6.678261 6.678261-13.356522 6.678261-20.034783 0-120.208696 182.53913-222.608696 398.469565-222.608695h4.452174c204.8 0 378.434783 91.269565 396.243479 204.8-2.226087 4.452174-4.452174 11.130435-4.452174 17.808695v133.565218z"
+                                            fill="#50BC93" p-id="3984"></path>
+                                    </svg>
+                                </span>
+                                <span class="text-success  ">登录</span>
+                            </a>
+                            <a href="" class="btn btn-outline-success radiusMy ml-5  ">注册</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <header class="navbar  d-none px-0 px-lg-2 py-3 py-lg-4 d-lg-none ">
+                        <a href="#" class="navbar-brand"><img src="" alt="" class="iconfont icon-xingbake"></a>
+
+                        <span class="iconfont icon-ziyuan" id="closeBtn"></span>
+                    </header>
+                    <div id="list" class="list d-lg-none d-none " >
+                        <ul >
+                            <li><a href="">门店</a></li>
+                            <li><a href="">星享俱乐部</a></li>
+                            <li><a href="">菜单</a></li>
+                            <li><a href="">星巴克移动应用</a></li>
+                            <li><a href="">星礼卡</a></li>
+                            <li><a href="">星巴克甄选</a></li>
+                            <li><a href="">咖快-在线点 到店取</a></li>
+                            <li><a href="">专星送</a></li>
+                            <li><a href="">咖啡星讲堂</a></li>
+                            <li><a href="">上海烘培工坊</a></li>
+                            <li><a href="">关于星巴克</a></li>
+                            <li><a href="">帮助中心</a></li>
+
+                        </ul>
+                    </div>
+                    <footer>
+
+                    </footer>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- 右边 -->
+            <div class="col-lg-8 bg-light">
+                <!-- 轮播图 -->
+                <div class="row">
+                    <div class="carousel slide" id="pic" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" >
+                                <img src="星巴克图片/ia_100000005.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="carousel-item " data-interval="1000">
+                                <img src="星巴克图片/ia_100000005.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="carousel-item " data-interval="1000">
+                                <img src="星巴克图片/ia_100000005.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+
+                        <!-- 控制器 -->
+                        <a href="#pic" class="carousel-control-prev" data-slide="prev">
+                            <span>＜</span>
+                        </a>
+                        <a href="#pic" class="carousel-control-next" data-slide="next">
+                            <span>＞</span>
+                        </a>
+                        <!-- 指示器 -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#pic" data-slide-to="0" class="active"></li>
+                            <li data-target="#pic" data-slide-to="1"></li>
+                            <li data-target="#pic" data-slide-to="2"></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="row py-4">
+                    <div class="col-sm-4 my-2 my-sm-0">
+                        <a href="#">
+                            <img src="星巴克图片/ia_100000007.jpg" class="img-fluid img-thumbnail" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 my-2 my-sm-0">
+                        <a href="#">
+                            <img src="星巴克图片/ia_100000008.jpg" class="img-fluid img-thumbnail" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 my-2 my-sm-0">
+                        <a href="#">
+                            <img src="星巴克图片/ia_100000009.jpg" class="img-fluid img-thumbnail" alt="">
+                        </a>
+                    </div>
+                </div>
+                
+
+                <div class="row p-5 bg-white align-items-center text-center text-sm-left start">
+                    <div class="col-sm-5">
+                        <h2>星享俱乐部</h2>
+                        <p class="py-3 text-muted">开启您的星享之旅，星星越多，会员等级越高，好礼越丰富。<a href="#">了解更多</a></p>
+                        <div>
+                            <button class="btn btn-outline-success btn-lg">注册</button>
+                            <button class="btn btn-outline-success btn-lg">登录</button>
+
+                        </div>
+                    </div>
+                    <div class="col mt-5 mt-sm-0 text-sm-right ">
+                        <img src="星巴克图片/ia_100000010.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+
+                <div class="row pb-5 betters">
+                    <div class="col-12 text-center">
+                        <h3 class="my-4">星巴克精选</h3>
+                        <p class="text-muted">在星巴克天猫旗舰店发现更多咖啡心意</p>
+                    </div>
+
+                    <div class="col-12"> 
+                        <ul class="row list-unstyled justify-content-around px-5">
+                            <li class="col-6 col-md-3">
+                                <a href="#" class="d-inline-block text-center px-2 bg-white rounded">
+                                    <img src="星巴克图片/ia_100000012.png"  alt="" class="img-fluid">
+                                    <h4 class="my-2 font-weight-bold">会员星礼包</h4>
+                                    <p class="text-muted">星享卡新升级<br>更多新意好礼</p>
+                                    <p class="caption">了解更多</p>
+                                </a>
+                            </li>
+                            <li class="col-6 col-md-3">
+                                <a href="#" class="d-inline-block text-center px-2 bg-white rounded">
+                                    <img src="星巴克图片/ia_100000013.png"  alt="" class="img-fluid">
+                                    <h4 class="my-2 font-weight-bold">会员星礼包</h4>
+                                    <p class="text-muted">星享卡新升级<br>更多新意好礼</p>
+                                    <p class="caption">了解更多</p>
+                                </a>
+                            </li>
+                            <li class="col-6 col-md-3">
+                                <a href="#" class="d-inline-block text-center px-2 bg-white rounded">
+                                    <img src="星巴克图片/ia_100000014.png"  alt="" class="img-fluid">
+                                    <h4 class="my-2 font-weight-bold">会员星礼包</h4>
+                                    <p class="text-muted">星享卡新升级<br>更多新意好礼</p>
+                                    <p class="caption">了解更多</p>
+                                </a>
+                            </li>
+                            <li class="col-6 col-md-3">
+                                <a href="#" class="d-inline-block text-center px-2 bg-white rounded">
+                                    <img src="星巴克图片/ia_100000015.png"  alt="" class="img-fluid">
+                                    <h4 class="my-2 font-weight-bold">会员星礼包</h4>
+                                    <p class="text-muted">星享卡新升级<br>更多新意好礼</p>
+                                    <p class="caption">了解更多</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="row bg-white overflow-hidden mb-5 pb-5 teach">
+                    <div class="col-12 text-center">
+                        <h3 class="my-4">1912派克街 | 咖啡星讲堂</h3>
+                        <p class="text-muted">了解更多星巴克咖啡文化</p>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="scoll pl-3">
+                            <ul class="list-unstyled d-flex justify-content-between ">
+                                <li class="card"> 
+                                    <a href="#">
+                                        <img src="星巴克图片/ia_100000030.jpg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-0">咖啡的起源与培植</h4>
+                                    </div>
+                                    <span class="position-absolute text-white px-3 py-1">咖啡知识</span>
+                                </li>
+                                <li class="card"> 
+                                    <a href="#">
+                                        <img src="星巴克图片/ia_100000031.jpg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-0">咖啡的起源与培植</h4>
+                                    </div>
+                                    <span class="position-absolute text-white px-3 py-1">咖啡知识</span>
+                                </li>
+                                <li class="card"> 
+                                    <a href="#">
+                                        <img src="星巴克图片/ia_100000032.jpg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-0">咖啡的起源与培植</h4>
+                                    </div>
+                                    <span class="position-absolute text-white px-3 py-1">咖啡知识</span>
+                                </li>
+                                <li class="card"> 
+                                    <a href="#">
+                                        <img src="星巴克图片/ia_100000033.jpg" alt="" class="card-img-top">
+                                    </a>
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-0">咖啡的起源与培植</h4>
+                                    </div>
+                                    <span class="position-absolute text-white px-3 py-1">咖啡知识</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./src/index.js"></script>
+</body>
+
+</html>
